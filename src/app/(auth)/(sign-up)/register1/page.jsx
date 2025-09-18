@@ -1,10 +1,10 @@
-import Register from '@/components/authentication/Register'
-import React from 'react'
+import Register1 from "@/components/authentication/register/Register1"
+
 
 const RegisterPage = () => {
   return (
     <div>
-      <Register/>
+      <Register1/>
     </div>
   )
 }

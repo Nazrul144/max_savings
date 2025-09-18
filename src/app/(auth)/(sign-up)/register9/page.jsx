@@ -1,5 +1,4 @@
-import Register9 from '@/components/authentication/Register9'
-import React from 'react'
+import Register9 from "@/components/authentication/register/Register9"
 
 const Register9Page = () => {
   return (

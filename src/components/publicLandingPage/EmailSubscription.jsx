@@ -4,7 +4,7 @@ import { useId } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from 'next/image'
-import myPhoto from '../../../public/emailSubscription/email_sub.png';
+import myPhoto from '../../../public/globe.svg'
 import { RxCross2 } from "react-icons/rx";
 
 const EmailSubscription = () => {

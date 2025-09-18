@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "daisyui";
+
+
+
+/* Apply Inter font only to .inter-text elements */
+.inter-text {
+  font-family: 'Inter', sans-serif;
+}
+.montserrat-text {
+  font-family: 'Montserrat', sans-serif;
+}
+.poppins-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.pinyon-text {
+  font-family: 'Pinyon Script', cursive;
+}
+.bills-text {
+  font-family: 'Post No Bills Jaffna SemiBold', cursive;
+}
+
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -44,6 +68,20 @@
 }
 
 :root {
+
+  /* globals.css */
+  --custom-color: #00308F;  /* Custom color variable */
+
+
+.common-bg {
+  background-color: var(--custom-color);
+  
+}
+
+.common-text {
+  color: var(--custom-color); /* Apply custom color to text */
+}
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);

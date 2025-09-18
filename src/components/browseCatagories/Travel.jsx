@@ -1,10 +1,8 @@
-import CatagoriesSlider from "../UserLandingPage/UserLandingPageCard/CatagoriesSlider"
-import HotelAndTravel from "../UserLandingPage/UserLandingPageCard/TravelComponentes/HotelsAndTravel"
-import SkiBreaks from "../UserLandingPage/UserLandingPageCard/TravelComponentes/SkiBreaks"
-
-import SunAndBeach from "../UserLandingPage/UserLandingPageCard/TravelComponentes/SunAndBeach"
-import UkStays from "../UserLandingPage/UserLandingPageCard/TravelComponentes/UkStays"
-
+import CatagoriesSlider from "../userLandingPage/UserLandingPageCard/CatagoriesSlider"
+import HotelAndTravel from "../userLandingPage/UserLandingPageCard/TravelComponentes/HotelsAndTravel"
+import SkiBreaks from "../userLandingPage/UserLandingPageCard/TravelComponentes/SkiBreaks"
+import SunAndBeach from "../userLandingPage/UserLandingPageCard/TravelComponentes/SunAndBeach"
+import UkStays from "../userLandingPage/UserLandingPageCard/TravelComponentes/UkStays"
 import FinanceHero from "./FinanceHero"
 
 

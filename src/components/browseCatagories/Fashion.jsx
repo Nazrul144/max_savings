@@ -1,11 +1,10 @@
-import React from 'react'
-import Hero from './FashionHero'
-import WomenswearCard from '../UserLandingPage/UserLandingPageCard/WomenswearCard'
-import ManswearCard from '../UserLandingPage/UserLandingPageCard/ManswearCard'
-import ChildrenswearCard from '../UserLandingPage/UserLandingPageCard/ChildrenswearCard'
-import ShoesCard from '../UserLandingPage/UserLandingPageCard/ShoesCard'
-import FashionHero from './FashionHero'
-import CatagoriesSlider from '../UserLandingPage/UserLandingPageCard/CatagoriesSlider'
+import CatagoriesSlider from "../userLandingPage/UserLandingPageCard/CatagoriesSlider"
+import ChildrenswearCard from "../userLandingPage/UserLandingPageCard/ChildrenswearCard"
+import ManswearCard from "../userLandingPage/UserLandingPageCard/ManswearCard"
+import ShoesCard from "../userLandingPage/UserLandingPageCard/ShoesCard"
+import WomenswearCard from "../userLandingPage/UserLandingPageCard/WomenswearCard"
+import FashionHero from "./FashionHero"
+
 
 const Fashion = () => {
   return (
